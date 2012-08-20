@@ -1,0 +1,59 @@
+!!!
+html
+    head
+        meta(charset="utf-8")
+        title= title
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="description", content="Tom8to - The Windows 8 Pomodoro Timer")
+        meta(name="author", content="Brandon Satrom")
+        link(rel='stylesheet', href='css/bootstrap.min.css')
+        style
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        link(rel='stylesheet', href='css/bootstrap-responsive.css')
+        block stylesheets
+        block scripts
+        
+        // Fav and touch icons
+        link(rel="shortcut icon", href="/img/favicon.ico")
+        link(rel="apple-touch-icon", href="/img/apple-touch-icon.png")
+        link(rel="apple-touch-icon", sizes="72x72", href="/img/apple-touch-icon-72x72.png")
+        link(rel="apple-touch-icon", sizes="114x114", href="/img/apple-touch-icon-114x114.png")
+    body
+        div(class="navbar navbar-fixed-top")
+            div(class="navbar-inner")
+                div(class="container-fluid")
+                    a(class="btn btn-navbar", data-toggle="collapse", data-target=".nav-collapse")
+                        span(class="icon-bar")
+                        span(class="icon-bar")
+                        span(class="icon-bar")
+                    a(class="brand", href="/") Tom8to                    
+                    div(class="nav-collapse")
+                        ul(class="nav")
+                            li
+                                a(href="/", class="active") Home
+                            li
+                                a(href="/about") About
+                            li
+                                a(href="/contact") Contact            
+        div.container
+            block content
+            footer 
+                p
+                    &copy; Carrot Pants Studios 2012
+            script(src="js/jquery.min.js")
+            script(src="js/bootstrap-transition.js")
+            script(src="js/bootstrap-alert.js")
+            script(src="js/bootstrap-modal.js")
+            script(src="js/bootstrap-dropdown.js")
+            script(src="js/bootstrap-scrollspy.js")
+            script(src="js/bootstrap-tab.js")
+            script(src="js/bootstrap-tooltip.js")
+            script(src="js/bootstrap-popover.js")
+            script(src="js/bootstrap-button.js")
+            script(src="js/bootstrap-collapse.js")
+            script(src="js/bootstrap-carousel.js")
+            script(src="js/bootstrap-typeahead.js")
+        block endBody

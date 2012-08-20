@@ -1,0 +1,18 @@
+{
+  "name": "Tom8to-Site",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.6.x",
+    "npm":  "1.0.x"
+  },
+  "private": false,
+  "dependencies": {
+    "express": "2.5.8",
+    "jade": ">= 0.0.1",
+	  "less": ">= 1.3.0"
+  },
+  "devDependencies": {  	
+    "jasmine-node": ">= 1.0.26",
+    "supervisor": ">= 0.3.1" 
+  }
+}
