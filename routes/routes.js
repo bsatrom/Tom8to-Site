@@ -5,15 +5,9 @@
     });
   };
 
-  exports.aboutUs = function(req, res) {
+  exports.about = function(req, res) {
     return res.render('about', {
       title: 'Tom8to - About'
-    });
-  };
-
-  exports.contact = function(req, res) {
-    return res.render('contact', {
-      title: 'Tom8to - Contact Us'
     });
   };
 }).call(this);

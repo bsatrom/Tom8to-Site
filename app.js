@@ -35,8 +35,7 @@
   });
 
   app.get('/', routes.index);
-  app.post('/about', routes.aboutUs);
-  app.get('/contact', routes.contact);
+  app.get('/about', routes.about);
 
   var port = process.env.PORT || 3000;
   app.listen(port);

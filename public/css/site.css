@@ -1,0 +1,13 @@
+img.promo {
+	-webkit-border-radius: 7px;
+	-o-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+
+	-webkit-box-shadow: rgba(149, 17, 17, 0.75) 0px 0px 5px 5px;
+	-o-box-shadow: rgba(149, 17, 17, 0.75) 0px 0px 5px 5px;
+	-moz-box-shadow: rgba(149, 17, 17, 0.75) 0px 0px 5px 5px;
+	box-shadow: rgba(149, 17, 17, 0.75) 0px 0px 5px 5px;
+
+	margin-bottom: 10px;
+}

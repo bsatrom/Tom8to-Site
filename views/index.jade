@@ -2,24 +2,27 @@ extends layout
 
 block content
 	div.hero-unit
-		h1 Pomodoro in a Win8 Style
-		p This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+		img(src="img/logo-base.png", class="visible-phone")
+		img.promo(src="img/promoSmall.png", class="hidden-phone")
+		h1 Pomodoro, Win8 Style
+		
+		p <strong>Tom8to</strong> is a Win8 UI style Pomodoro timer application, designed to help you get things done with bursts of productivity and regular micro-breaks.
 		p 
-			a(class="btn btn-primary btn-large") Learn more &raquo;
+			a(href="/about", class="btn btn-primary btn-large") Learn more &raquo;
 	div.row
 		div.span4
-			h2 Heading
-			p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+			h2 Get the Win8 App!
+			p Tom8to will soon be available for Windows 8, and can be downloaded from the Windows Store. Why not check it out and tell us what you think? (NOTE: Our App is complete and pending review for addition to the Windows Store. Check back soon!)
 			p
-				a.btn(href="#") View details &raquo;
+				a.btn(href="#", disabled="disabled") Get the App! &raquo;
 		div.span4
-			h2 Heading
-			p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+			h2 Learn about Pomodoro
+			p <a href="http://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro</a>, which is Italian for Tomato, is a technique that uses a timer to divide work periods into short (typically 25-minute) intervals, with a brief break between each.
 			p
-				a.btn(href="#") View details &raquo;
+				a.btn(href="http://en.wikipedia.org/wiki/Pomodoro_Technique") Learn More &raquo;
 		div.span4
-			h2 Heading
-			p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+			h2 Read the Book
+			p Francenso Cirillo, creator of the pomodoro technique, wrote a book a out the practice in 2006. You can get a physical or digital copy from his website, Amazon or iBooks.
 			p
-				a.btn(href="#") View details &raquo;
+				a.btn(href="http://www.pomodorotechnique.com/book.html") Buy the Book &raquo;		
 	hr
