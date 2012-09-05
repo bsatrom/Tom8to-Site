@@ -15,7 +15,7 @@
     app.set('view options', {
       layout: false
     });
-    
+     
     app.use(express.compiler({ src: __dirname + '/public', enable: ['less'] }));
     app.use(express.bodyParser());
     app.use(express.methodOverride());
@@ -36,6 +36,7 @@
 
   app.get('/', routes.index);
   app.get('/about', routes.about);
+  app.get('/intro', routes.intro);
 
   var port = process.env.PORT || 3000;
   app.listen(port);

@@ -10,4 +10,10 @@
       title: 'Tom8to - About'
     });
   };
+
+  exports.intro = function(req, res) {
+    return res.render('intro', {
+      title: 'Tom8to - Intro Video'
+    });
+  };
 }).call(this);

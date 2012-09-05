@@ -38,6 +38,8 @@ html
                             li
                                 a(href="/about") About
                             li
+                                a(href="/intro") Intro Video
+                            li
                                 a(href="mailto:bsatrom@gmail.com") Contact            
         div.container
             block content
@@ -46,4 +48,11 @@ html
                     &copy; Carrot Pants Studios 2012
             script(src="js/jquery.min.js")
             script(src="js/bootstrap.min.js")
+            script
+                var uvOptions = {};
+                (function() {
+                    var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+                    uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/uWBWfMqQpeymxb4L5eaZMA.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+                })();
         block endBody
