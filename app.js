@@ -37,6 +37,7 @@
   app.get('/', routes.index);
   app.get('/about', routes.about);
   app.get('/intro', routes.intro);
+  app.get('/privacy', routes.privacy)
 
   var port = process.env.PORT || 3000;
   app.listen(port);

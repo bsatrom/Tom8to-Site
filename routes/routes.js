@@ -16,4 +16,10 @@
       title: 'Tom8to - Intro Video'
     });
   };
+
+  exports.privacy = function(req, res) {
+    return res.render('privacy', {
+      title: 'Tom8to - Privacy Policy'
+    });
+  };
 }).call(this);
